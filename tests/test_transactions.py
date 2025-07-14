@@ -46,7 +46,7 @@ def test_get_all_transactions_returns_all():
     assert all_tx[0]['category'] == "Salary"
     assert all_tx[1]['category'] == "Groceries"
 
-def test_get_all_transactions_emtpy():
+def test_get_all_transactions_empty():
     tracker = BudgetTracker()
     all_tx = tracker.get_all_transactions()
     assert all_tx == []

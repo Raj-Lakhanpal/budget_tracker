@@ -19,3 +19,6 @@ class BudgetTracker:
             "type": tx_type,
             "date": date
         })
+    
+    def get_all_transactions(self):
+        return self.transactions
